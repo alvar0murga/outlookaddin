@@ -1,11 +1,11 @@
 // taskpane.js
-function downloadEmailAsPDF() {
-  alert('El botón funciona');
+
 Office.onReady(() => {
   // Initialization if needed
 });
 
 function downloadEmailAsPDF() {
+  alert('El botón funciona');
   Office.context.mailbox.item.body.getAsync(Office.CoercionType.Text, function(result) {
     if (result.status === Office.AsyncResultStatus.Succeeded) {
       // Use jsPDF from window.jspdf.jsPDF
