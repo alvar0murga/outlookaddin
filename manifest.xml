@@ -13,9 +13,9 @@
   <Version>1.0.0.0</Version>\
   <ProviderName>Stichting SED Fud</ProviderName>\
   <DefaultLocale>en-US</DefaultLocale>\
-  <DisplayName DefaultValue="Email a PDF"/>\
-  <Description DefaultValue="Descarga el email como PDF"/>\
-  <IconUrl DefaultValue="https://TU_DOMINIO_O_GITHUB/icon.png"/>\
+  <DisplayName DefaultValue="Email to PDF"/>\
+  <Description DefaultValue="Download as PDF"/>\
+  <IconUrl DefaultValue="https://alvar0murga.github.io/outlookaddin/icon.png"/>\
   <Hosts>\
     <Host Name="Mailbox"/>\
   </Hosts>\
@@ -27,7 +27,7 @@
   <FormSettings>\
     <Form xsi:type="ItemRead">\
       <DesktopSettings>\
-        <SourceLocation DefaultValue="https://https://github.com/alvar0murga/outlookaddin.git/taskpane.html"/>\
+        <SourceLocation DefaultValue="https://alvar0murga.github.io/outlookaddin/taskpane.html"/>\
         <RequestedHeight>250</RequestedHeight>\
       </DesktopSettings>\
     </Form>\
@@ -67,20 +67,20 @@
     </Hosts>\
     <Resources>\
       <bt:Images>\
-        <bt:Image id="icon16" DefaultValue="https://TU_DOMINIO_O_GITHUB/icon.png"/>\
-        <bt:Image id="icon32" DefaultValue="https://TU_DOMINIO_O_GITHUB/icon.png"/>\
-        <bt:Image id="icon80" DefaultValue="https://TU_DOMINIO_O_GITHUB/icon.png"/>\
+        <bt:Image id="icon16" DefaultValue="https://alvar0murga.github.io/outlookaddin/icon.png"/>\
+        <bt:Image id="icon32" DefaultValue="https://alvar0murga.github.io/outlookaddin/icon.png"/>\
+        <bt:Image id="icon80" DefaultValue="https://alvar0murga.github.io/outlookaddin/icon.png"/>\
       </bt:Images>\
       <bt:Urls>\
-        <bt:Url id="messageReadTaskPaneUrl" DefaultValue="https://TU_DOMINIO_O_GITHUB/taskpane.html"/>\
+        <bt:Url id="messageReadTaskPaneUrl" DefaultValue="https://alvar0murga.github.io/outlookaddin/taskpane.html"/>\
       </bt:Urls>\
       <bt:ShortStrings>\
         <bt:String id="groupLabel" DefaultValue="PDF Tools"/>\
-        <bt:String id="paneReadButtonLabel" DefaultValue="Descargar PDF"/>\
-        <bt:String id="paneReadSuperTipTitle" DefaultValue="Descargar PDF"/>\
+        <bt:String id="paneReadButtonLabel" DefaultValue="Download PDF"/>\
+        <bt:String id="paneReadSuperTipTitle" DefaultValue="Download PDF"/>\
       </bt:ShortStrings>\
       <bt:LongStrings>\
-        <bt:String id="paneReadSuperTipDescription" DefaultValue="Descarga este email como PDF"/>\
+        <bt:String id="paneReadSuperTipDescription" DefaultValue="Download as PDF"/>\
       </bt:LongStrings>\
     </Resources>\
   </VersionOverrides>\
