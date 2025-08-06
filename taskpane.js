@@ -1,16 +1,14 @@
 // taskpane.js
 
-// Espera a que Office esté listo
 Office.onReady(() => {
-  // Puedes poner aquí código de inicialización si lo necesitas
+  // Initialization if needed
 });
 
-// Función para descargar el email como PDF
 function downloadEmailAsPDF() {
   Office.context.mailbox.item.body.getAsync(Office.CoercionType.Text, function(result) {
     if (result.status === Office.AsyncResultStatus.Succeeded) {
-      // Crea el PDF
-      const { jsPDF } = window.jspdf;
+      // Use jsPDF from window.jspdf.jsPDF
+      const jsPDF = window.jspdf.jsPDF;
       const doc = new jsPDF();
       doc.setFontSize(12);
       doc.text("Email content:", 10, 10);
@@ -22,5 +20,4 @@ function downloadEmailAsPDF() {
   });
 }
 
-// Haz que la función esté disponible globalmente
 window.downloadEmailAsPDF = downloadEmailAsPDF;
