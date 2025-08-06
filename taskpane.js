@@ -1,5 +1,6 @@
 // taskpane.js
-
+function downloadEmailAsPDF() {
+  alert('El botón funciona');
 Office.onReady(() => {
   // Initialization if needed
 });
